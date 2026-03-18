@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Workshop: Title Here — Date</title>
-  <meta name="description" content="One-day workshop. Date • Time • Location. Schedule and contact." />
+  <title>SIGGRAPH Post-TPC Workshop 2026</title>
+  <meta name="description" content="SIGGRAPH Post-TPC Workshop 2026 • 3.28.2026 • 8:30am-1pm • University of Chicago." />
   <style>
     /* Minimal, modern styling (all inline so one file) */
     :root{
@@ -55,12 +55,12 @@
     <article class="card" role="article" aria-labelledby="title">
       <header>
         <div>
-          <h1 id="title" class="title">Workshop Title: Practical Machine Learning</h1>
-          <div class="sub">A one-day hands-on workshop for researchers and practitioners.</div>
+          <h1 id="title" class="title">State-of-the-Art in Computer Graphics Research</h1>
+          <div class="sub"> A public workshop following the ACM SIGGRAPH Technical Papers Committee Meeting.</div>
         </div>
         <div class="meta" aria-hidden="false">
-          <div class="when">Sat, June 12, 2026 • 9:00 AM – 5:00 PM</div>
-          <div class="small">Location: Innovation Hall, 123 Main St, City</div>
+          <div class="when">Saturday, March 28, 2026 • 8:30 AM – 1:00 PM</div>
+          <div class="small">Location: <a href="https://computerscience.uchicago.edu/about/our-building/">John Crerar Library</a>, University of Chicago</div>
         </div>
       </header>
 
@@ -69,63 +69,20 @@
 
         <table aria-describedby="schedule-heading">
           <thead>
-            <tr><th>Time</th><th>Session</th><th>Speaker / Notes</th></tr>
+            <tr><th>Time</th><th>Session</th><th>Speaker</th></tr>
           </thead>
           <tbody>
-            <tr><td class="time">09:00 – 09:30</td><td>Registration & Coffee</td><td>Check-in, name badges</td></tr>
-            <tr><td class="time">09:30 – 10:15</td><td>Opening: Workshop Overview</td><td>Host: Your Name</td></tr>
-            <tr><td class="time">10:15 – 11:00</td><td>Session 1: Topic A</td><td>Speaker A</td></tr>
-            <tr><td class="time">11:00 – 11:15</td><td>Break</td><td>&nbsp;</td></tr>
-            <tr><td class="time">11:15 – 12:30</td><td>Session 2: Hands-on Lab</td><td>Speaker B</td></tr>
-            <tr><td class="time">12:30 – 13:30</td><td>Lunch</td><td>Provided onsite</td></tr>
-            <tr><td class="time">13:30 – 15:00</td><td>Session 3: Demos</td><td>Panel</td></tr>
-            <tr><td class="time">15:00 – 15:15</td><td>Break</td><td>&nbsp;</td></tr>
-            <tr><td class="time">15:15 – 16:30</td><td>Workshop: Group exercise</td><td>Facilitators</td></tr>
-            <tr><td class="time">16:30 – 17:00</td><td>Closing & Networking</td><td>Contact info below</td></tr>
+            <tr><td class="time">08:30 – 09:00</td><td>Breakfast</td><td></td></tr>
+            <tr><td class="time">09:00 – 12:00</td><td>Lightning talks</td><td></td></tr>
+            <tr><td class="time">12:00 – 01:00</td><td>Lunch</td><td></td></tr>
           </tbody>
         </table>
-
-        <div class="cta-row">
-          <a class="btn" href="mailto:you@example.com?subject=Workshop%20Registration">Register / Contact</a>
-          <a class="small" href="#" onclick="document.getElementById('download-ics').click(); return false;">Add to calendar (.ics)</a>
-        </div>
       </section>
 
       <section class="section" aria-labelledby="info-heading">
-        <h3 id="info-heading" class="small" style="margin:8px 0;">Venue & Contact</h3>
-        <p class="small" style="margin:4px 0;">Innovation Hall, 123 Main St, City — nearest transit: Central Station. Questions? <a href="mailto:you@example.com">you@example.com</a></p>
+        <h3 id="info-heading" class="small" style="margin:8px 0;">Sponsors</h3>
+        <p class="small" style="margin:4px 0;">This workshop---as well as the TPC meeting---is possible thanks to the generous support of Google DeepMind, Meshy, Analog.Ai, Adobe, Decart, and the Tencent ARC Lab. We also extend special thanks to those TPC members who identified means of covering their own travel expenses.</p>
       </section>
-
-      <footer>
-        <div class="small">Hosted by Your Organization • <a href="https://example.org" style="color:var(--accent); text-decoration:none;">example.org</a></div>
-      </footer>
-
-      <!-- ICS helper: creates a downloadable calendar event on click -->
-      <a id="download-ics" style="display:none"></a>
-      <script>
-        (function(){
-          const icsContent = [
-            "BEGIN:VCALENDAR",
-            "VERSION:2.0",
-            "PRODID:-//Workshop//EN",
-            "BEGIN:VEVENT",
-            "UID:workshop-20260612@example.org",
-            "DTSTAMP:20260612T080000Z",
-            "DTSTART:20260612T130000Z", // adjust UTC times as needed
-            "DTEND:20260612T210000Z",
-            "SUMMARY:Practical Machine Learning - Workshop",
-            "LOCATION:Innovation Hall, 123 Main St, City",
-            "DESCRIPTION:One-day workshop. Contact: you@example.com",
-            "END:VEVENT",
-            "END:VCALENDAR"
-          ].join("\\r\\n");
-          const blob = new Blob([icsContent], {type:'text/calendar'});
-          const url = URL.createObjectURL(blob);
-          const a = document.getElementById('download-ics');
-          a.href = url;
-          a.download = 'workshop.ics';
-        })();
-      </script>
 
     </article>
   </main>
